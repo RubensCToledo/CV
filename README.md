@@ -1,8 +1,8 @@
-# Mechanical Engineer | P&D Specialist
+# Mechanical Engineer | R&D Specialist
 
-Soon to be Ph.D. Mechanical Engineer with a passion for energy efficiency and emissions reduction. I’m at my best in chaotic, hands-on situations where things aren’t working, and no one can figure out why—there’s nothing like the thrill of solving tough problems and uncovering hidden insights. I love diving into data analysis, but I also need to get my hands dirty with instruments now and then. After all, if there's no risk of something blowing up, where’s the fun?
+Soon to be Ph.D. Mechanical Engineer with a passion for energy efficiency. I’m at my best in chaotic, hands-on situations where things aren’t working, and no one can figure out why—there’s nothing like the thrill of solving tough problems and uncovering hidden insights. I love diving into data analysis, but I also need to get my hands dirty with instruments now and then. After all, if there's no risk of something blowing up, where’s the fun?
 
-With experience in experimental research, carbon capture, parametric benchmarking, and instrumentation, I’m seeking an R&D role where I can push boundaries and make a real impact in the energy and emissions sector.
+With experience in experimental research, carbon capture, parametric benchmarking, and instrumentation, I’m seeking an R&D role where I can push boundaries and make a real impact in the energy sector.
 
 ## Education
 
