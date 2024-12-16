@@ -6,12 +6,12 @@ With experience in experimental research, carbon capture, parametric benchmarkin
 
 ## Education
 
-### Ph.D--Energy Engineering, UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho" (August 2021 - On going)
+### Ph.D -- Energy Engineering, UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho" (August 2021 - On going)
 * Investigation of carbon capture through Calcium Looping technology applied to exhaust gases from natural gas combustion and how the technology might be used on Brazilian territory;
-### M.Sc--Mechanical Engineering, EESC-USP Escola de Engenharia de São Carlos (March 2019 - August 2021) 
+### M.Sc -- Mechanical Engineering, EESC-USP Escola de Engenharia de São Carlos (March 2019 - August 2021) 
 * Droplet condensation heat transfer on flat surfaces;
 * Flat fin Heat exchanger modeling.
-### BSc--Mechanical Engineering, UFMT - Universidade Federal de Mato Grosso logo (March 2012 - March 2018)
+### BSc -- Mechanical Engineering, UFMT - Universidade Federal de Mato Grosso logo (March 2012 - March 2018)
 * Research on biomedical metals for implants.
 ### Abroad time
 * Università degli Studi di Napoli Federico II (September 2024 - March 2025)
