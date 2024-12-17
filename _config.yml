@@ -4,6 +4,7 @@ plugins:
 - jekyll-menus
 
 title: [Rubens C. Toledo]
+layout: listing
 menus:
   header:
     title: Home
