@@ -4,6 +4,10 @@ plugins:
 - jekyll-menus
 
 title: [Rubens C. Toledo]
+menus:
+  header:
+    title: Home
+    weight: 1
 description: [A short description of your site's purpose]
 google_analytics: [Your Google Analytics tracking ID]
 
