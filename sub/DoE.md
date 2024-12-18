@@ -11,11 +11,11 @@ Samples           |  Sieving machine |
 ![quarteamento](https://github.com/user-attachments/assets/9c3bee34-bc24-447c-a377-07713c562a83)  | ![bertel](https://github.com/user-attachments/assets/d5de4930-9f10-4384-88e5-17d685188758)|
 
 After consulting various materials, I identified a sample size that aligns with best practices for achieving good results with this machine. The next step was to determine the remaining parameters. I came up with the following setup:
-Parameter              | Coded variable | Negative level | Positive level|
------------------------|----------------|----------------|---------------|
-Drying time (h)        | A              | 2              | 24            |
-Vibration intensity (%)| B              | 2              | 80            |
-Sieving time (min)     | C              | 3              | 15            |
+|Parameter              | Coded variable | Negative level | Positive level|
+|-----------------------|----------------|----------------|---------------|
+|Drying time (h)        | A              | 2              | 24            |
+|Vibration intensity (%)| B              | 2              | 80            |
+|Sieving time (min)     | C              | 3              | 15            |
 
 The final design involved 3 parameters at 2 levels each. A total of 8 unique experiments were conducted, with each experiment repeated 3 times, totaling 24 runs. The experimental matrix, including the results, is shown below:
 
