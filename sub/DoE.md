@@ -54,6 +54,7 @@ A example code of this technique can be seen on here
 
 In this project I was trying to optimize a variable on a process. When dealing with a somewhat know process, it is possible to apply a second degree model to describe the desirable output. In this example I was investigating the effect of temperature and residence time of some samples during a reaction. I wish to understand what are the optimal configuration to conduct this test if I want to have the maximum yield output which in this case is reaction conversion. The table bellow shows the configuration used in this project:
 
+
 | Sample | Time [min] | Temperature [°C] | Energy spent [kJ] | % CO₂ mass captured [%mg] | y [% mg/kJ] |
 |--------|------------|------------------|-------------------|---------------------------|-------------|
 | 1      | 5          | 400              | 8.04              | 6.90                      | 0.86        |
@@ -68,6 +69,7 @@ In this project I was trying to optimize a variable on a process. When dealing w
 | 10     | 11         | 475              | 8.46              | 19.78                     | 2.34        |
 | 11     | 7.5        | 370              | 8.16              | 5.28                      | 0.65        |
 | 12     | 7.5        | 580              | 8.50              | 25.00                     | 2.94        |
+
 
 The first difference of the previous configuration are the replicates. On CCD we are exploring the result plane, where the first top experiments on the table represent a "square" within high and low levels (blue dots). Replicates are all setted on the center of the "square" and they are used to estimate the deviation and extrapoled the uncertainty found on the center for the rest of the results (orange central points). The bottom part of the table are the extrapolation, a second square is justaposed above the first in order to extrapolate the investigated experiments (purple dots). The image bellow ilustrate this configuration.
 
