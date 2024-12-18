@@ -5,6 +5,7 @@ When dealing with experiments, it is not always possible to obtain a large numbe
 In this design, I was investigating a sieving machine for sedimentary rock samples. My goal was to characterize the particle size distribution and their respective amounts in the samples. Data from previous users were inconsistent and did not provide clear guidance on how to set the parameters for sample size, drying time, vibration intensity, and sieving time.
 
 At the time, I was studying DoE techniques and decided to use a full factorial design. Even though it requires a larger number of tests, I believe it is easier to understand and interpret. Below, I present pictures of the machine and the samples used.
+
 Samples           |  Sieving machine
 :-------------------------:|:-------------------------:
 ![quarteamento](https://github.com/user-attachments/assets/9c3bee34-bc24-447c-a377-07713c562a83)  | ![bertel](https://github.com/user-attachments/assets/d5de4930-9f10-4384-88e5-17d685188758)
@@ -29,7 +30,9 @@ The final design involved 3 parameters at 2 levels each. A total of 8 unique exp
 | 7      | 2               | 80                      | 15                 | 62.3                   | 61.6                   | 61.9                   | 62.0  | 0.1  |
 | 8      | 24              | 80                      | 15                 | 61.8                   | 61.2                   | 61.9                   | 61.6  | 0.1  |
 
+
 By analyzing the effect of each parameter on the final results, as shown in the table below:
+
 | Parameter order | Parameter | Effect | Relevancy    |
 |-----------------|-----------|--------|--------------|
 | 1°              | A         | -1.68  | not relevant |
@@ -41,7 +44,9 @@ By analyzing the effect of each parameter on the final results, as shown in the 
 | 3°              | ABC       | -0.26  | not relevant |
 
 These results have shown me that the only factor impacting my tests was the vibration intensity, which allowed me to conduct the tests more quickly and with less concern about drying the samples. While the DoE technique is very useful, careful consideration and critical analysis are essential when making decisions. Below is a image of the analysis conducted for 7 replicates, following the parameters identified in this study.
+
 ![3eb0e1fe8393faaf3639dab83fdf1cbac24a83e4](https://github.com/user-attachments/assets/b19cbe85-3e4d-4329-9963-83980a2bcbf2)
+
 In this case, the fluctuation observed at lower particle sizes is acceptable. However, it's important to remember that this analysis was based on 3 replicates, which may not fully capture the complete effect of each variable. Increasing the number of replicates could result in more than 100 tests, which is typically not feasible for various reasons. For this reason, more robust techniques should be applied when conducting parametric studies.
 
 A example code of this technique can be seen on here
@@ -51,12 +56,16 @@ In this project I was trying to optimize a variable on a process. When dealing w
 
 
 The first difference of the previous configuration are the replicates. On CCD we are exploring the result plane, where the first top experiments on the table represent a "square" within high and low levels (blue dots). Replicates are all setted on the center of the "square" and they are used to estimate the deviation and extrapoled the uncertainty found on the center for the rest of the results (orange central points). The bottom part of the table are the extrapolation, a second square is justaposed above the first in order to extrapolate the investigated experiments (purple dots). The image bellow ilustrate this configuration.
+
 ![WhatsApp Image 2024-12-18 at 08 42 26](https://github.com/user-attachments/assets/555f6f6d-f7c8-4799-bca9-d995d12923b5)
+
 The result of this investigation is two 3D plot (bellow) that indicates which are the best combination of the investigated variables to results.
+
 3D plot of results          |  Plot level
 :-------------------------:|:-------------------------:
 ![maximum](https://github.com/user-attachments/assets/eeca742b-a75a-4efe-9e47-44103601e0f3) | 
 ![plot-level](https://github.com/user-attachments/assets/a8f4ccf5-5476-4d2b-8d3f-f78b6b872da6)
+
 The code example can be found here.
 
 
