@@ -6,16 +6,16 @@ In this design, I was investigating a sieving machine for sedimentary rock sampl
 
 At the time, I was studying DoE techniques and decided to use a full factorial design. Even though it requires a larger number of tests, I believe it is easier to understand and interpret. Below, I present pictures of the machine and the samples used.
 
-Samples           |  Sieving machine
-:-------------------------:|:-------------------------:
-![quarteamento](https://github.com/user-attachments/assets/9c3bee34-bc24-447c-a377-07713c562a83)  | ![bertel](https://github.com/user-attachments/assets/d5de4930-9f10-4384-88e5-17d685188758)
+Samples           |  Sieving machine |
+-------------------------|-------------------------|
+![quarteamento](https://github.com/user-attachments/assets/9c3bee34-bc24-447c-a377-07713c562a83)  | ![bertel](https://github.com/user-attachments/assets/d5de4930-9f10-4384-88e5-17d685188758)|
 
 After consulting various materials, I identified a sample size that aligns with best practices for achieving good results with this machine. The next step was to determine the remaining parameters. I came up with the following setup:
-Parameter              | Coded variable | Negative level | Positive level
-:---------------------:|:--------------:|:--------------:|:--------------:
-Drying time (h)        | A              | 2              | 24
-Vibration intensity (%)| B              | 2              | 80
-Sieving time (min)     | C              | 3              | 15
+Parameter              | Coded variable | Negative level | Positive level|
+-----------------------|----------------|----------------|---------------|
+Drying time (h)        | A              | 2              | 24            |
+Vibration intensity (%)| B              | 2              | 80            |
+Sieving time (min)     | C              | 3              | 15            |
 
 The final design involved 3 parameters at 2 levels each. A total of 8 unique experiments were conducted, with each experiment repeated 3 times, totaling 24 runs. The experimental matrix, including the results, is shown below:
 
@@ -74,8 +74,8 @@ The first difference of the previous configuration are the replicates. On CCD we
 
 The result of this investigation is two 3D plot (bellow) that indicates which are the best combination of the investigated variables to results.
 
-3D plot of results          |  Plot level
-:-------------------------:|:-------------------------:
+3D plot of results          |  Plot level          | 
+----------------------------|----------------------|
 ![maximum](https://github.com/user-attachments/assets/eeca742b-a75a-4efe-9e47-44103601e0f3) | 
 ![plot-level](https://github.com/user-attachments/assets/a8f4ccf5-5476-4d2b-8d3f-f78b6b872da6)
 
