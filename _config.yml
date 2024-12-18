@@ -8,3 +8,4 @@ title: [Rubens C. Toledo]
 description: [A short description of your site's purpose]
 google_analytics: [Your Google Analytics tracking ID]
 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
