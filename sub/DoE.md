@@ -15,7 +15,6 @@ Parameter              | Coded variable | Negative level | Positive level
 Drying time (h)        | A              | 2              | 24
 Vibration intensity (%)| B              | 2              | 80
 Sieving time (min)     | C              | 3              | 15
-:---------------------:|:--------------:|:--------------:|:--------------:
 
 The final design involved 3 parameters at 2 levels each. A total of 8 unique experiments were conducted, with each experiment repeated 3 times, totaling 24 runs. The experimental matrix, including the results, is shown below:
 
@@ -44,8 +43,11 @@ By analyzing the effect of each parameter on the final results, as shown in the 
 These results have shown me that the only factor impacting my tests was the vibration intensity, which allowed me to conduct the tests more quickly and with less concern about drying the samples. While the DoE technique is very useful, careful consideration and critical analysis are essential when making decisions. Below is a image of the analysis conducted for 7 replicates, following the parameters identified in this study.
 ![3eb0e1fe8393faaf3639dab83fdf1cbac24a83e4](https://github.com/user-attachments/assets/b19cbe85-3e4d-4329-9963-83980a2bcbf2)
 In this case, the fluctuation observed at lower particle sizes is acceptable. However, it's important to remember that this analysis was based on 3 replicates, which may not fully capture the complete effect of each variable. Increasing the number of replicates could result in more than 100 tests, which is typically not feasible for various reasons. For this reason, more robust techniques should be applied when conducting parametric studies.
+
+A example code of this technique can be seen on here
 ## Composite Central Design
 
+In this project I was trying to optimize 
 
 
 
