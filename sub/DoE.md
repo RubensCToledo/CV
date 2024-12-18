@@ -47,7 +47,18 @@ In this case, the fluctuation observed at lower particle sizes is acceptable. Ho
 A example code of this technique can be seen on here
 ## Composite Central Design
 
-In this project I was trying to optimize 
+In this project I was trying to optimize a variable on a process. When dealing with a somewhat know process, it is possible to apply a second degree model to describe the desirable output. In this example I was investigating the effect of temperature and residence time of some samples during a reaction. I wish to understand what are the optimal configuration to conduct this test if I want to have the maximum yield output which in this case is reaction conversion. The table bellow shows the configuration used in this project:
+
+
+The first difference of the previous configuration are the replicates. On CCD we are exploring the result plane, where the first top experiments on the table represent a "square" within high and low levels (blue dots). Replicates are all setted on the center of the "square" and they are used to estimate the deviation and extrapoled the uncertainty found on the center for the rest of the results (orange central points). The bottom part of the table are the extrapolation, a second square is justaposed above the first in order to extrapolate the investigated experiments (purple dots). The image bellow ilustrate this configuration.
+![WhatsApp Image 2024-12-18 at 08 42 26](https://github.com/user-attachments/assets/555f6f6d-f7c8-4799-bca9-d995d12923b5)
+The result of this investigation is two 3D plot (bellow) that indicates which are the best combination of the investigated variables to results.
+3D plot of results          |  Plot level
+:-------------------------:|:-------------------------:
+![maximum](https://github.com/user-attachments/assets/eeca742b-a75a-4efe-9e47-44103601e0f3) | 
+![plot-level](https://github.com/user-attachments/assets/a8f4ccf5-5476-4d2b-8d3f-f78b6b872da6)
+The code example can be found here.
+
 
 
 
