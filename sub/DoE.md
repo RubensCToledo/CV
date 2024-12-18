@@ -53,7 +53,20 @@ A example code of this technique can be seen on here
 ## Composite Central Design
 
 In this project I was trying to optimize a variable on a process. When dealing with a somewhat know process, it is possible to apply a second degree model to describe the desirable output. In this example I was investigating the effect of temperature and residence time of some samples during a reaction. I wish to understand what are the optimal configuration to conduct this test if I want to have the maximum yield output which in this case is reaction conversion. The table bellow shows the configuration used in this project:
-
+| Sample | Time [min] | Temperature [°C] | Energy spent [kJ] | % CO₂ mass captured [%mg] | y [% mg/kJ] |
+|--------|------------|------------------|-------------------|---------------------------|-------------|
+| 1      | 5          | 400              | 8.04              | 6.90                      | 0.86        |
+| 2      | 10         | 400              | 8.26              | 10.58                     | 1.28        |
+| 3      | 5          | 550              | 8.16              | 14.47                     | 1.77        |
+| 4      | 10         | 550              | 8.52              | 25.99                     | 3.05        |
+| 5      | 7.5        | 475              | 8.39              | 22.36                     | 2.66        |
+| 6      | 7.5        | 475              | 8.35              | 24.40                     | 2.92        |
+| 7      | 7.5        | 475              | 8.32              | 19.96                     | 2.42        |
+| 8      | 7.5        | 475              | 8.29              | 23.42                     | 2.82        |
+| 9      | 4          | 475              | 8.08              | 18.51                     | 2.29        |
+| 10     | 11         | 475              | 8.46              | 19.78                     | 2.34        |
+| 11     | 7.5        | 370              | 8.16              | 5.28                      | 0.65        |
+| 12     | 7.5        | 580              | 8.50              | 25.00                     | 2.94        |
 
 The first difference of the previous configuration are the replicates. On CCD we are exploring the result plane, where the first top experiments on the table represent a "square" within high and low levels (blue dots). Replicates are all setted on the center of the "square" and they are used to estimate the deviation and extrapoled the uncertainty found on the center for the rest of the results (orange central points). The bottom part of the table are the extrapolation, a second square is justaposed above the first in order to extrapolate the investigated experiments (purple dots). The image bellow ilustrate this configuration.
 
@@ -67,6 +80,24 @@ The result of this investigation is two 3D plot (bellow) that indicates which ar
 ![plot-level](https://github.com/user-attachments/assets/a8f4ccf5-5476-4d2b-8d3f-f78b6b872da6)
 
 The code example can be found here.
+
+It is possible to use an ANOVA to find also the relevant paremeters and their combination:
+
+| Source            | DF | Adj SS  | Adj MS   | F-value | p-value |
+|-------------------|----|---------|----------|---------|---------|
+| Model             | 5  | 6.9841  | 1.39683  | 12.10   | 0.004   |
+| Linear            | 2  | 4.7699  | 2.38497  | 20.66   | 0.002   |
+| Time              | 1  | 0.3956  | 0.39557  | 3.43    | 0.114   |
+| Temperature       | 1  | 4.3744  | 4.37437  | 37.90   | 0.001   |
+| Square            | 2  | 2.0293  | 1.01465  | 8.79    | 0.016   |
+| Time²             | 1  | 0.4791  | 0.47905  | 4.15    | 0.088   |
+| Temperature²      | 1  | 1.8332  | 1.83319  | 15.88   | 0.007   |
+| 2-Way Int.        | 1  | 0.1849  | 0.18490  | 1.60    | 0.253   |
+| Time*Temperature  | 1  | 0.1849  | 0.18490  | 1.60    | 0.253   |
+| Error             | 6  | 0.6925  | 0.11542  | -       | -       |
+| Lack of fit       | 3  | 0.5498  | 0.18328  | 3.85    | 0.149   |
+| Pure error        | 3  | 0.1427  | 0.04757  | -       | -       |
+| Total             | 11 | 7.6767  | -        | -       | -       |
 
 
 
