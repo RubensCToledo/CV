@@ -35,7 +35,7 @@ Chalanges here are about the same of the other analysis and went way smoother. T
 
 To highlight the importance of the manual filtering, here is a comparision of same analysis with and without the manual analysis for relevance. You can see how misleading the analysis become without it:
 With manual filtering | Without manual filtering|
-:--------------------:|------------------------:|
+----------------------|-------------------------|
 
 ![doc-cita_year](https://github.com/user-attachments/assets/28da4c83-528d-4394-963a-1732da602020)|![doc-cita_year_comparison](https://github.com/user-attachments/assets/97b23663-fe30-4bde-8996-d0654dba63af)|
 
