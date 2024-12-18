@@ -55,7 +55,7 @@ A example code of this technique can be seen on here
 In this project I was trying to optimize a variable on a process. When dealing with a somewhat know process, it is possible to apply a second degree model to describe the desirable output. In this example I was investigating the effect of temperature and residence time of some samples during a reaction. I wish to understand what are the optimal configuration to conduct this test if I want to have the maximum yield output which in this case is reaction conversion. The table bellow shows the configuration used in this project:
 
 
-| Sample | Time [min] | Temperature [°C] | Energy spent [kJ] | % CO₂ mass captured [%mg] | y [% mg/kJ] |
+| Sample | Time (min) | Temperature (°C) | Energy spent (kJ) | \% CO₂ mass captured (\%mg) | y (\% mg/kJ) |
 |--------|------------|------------------|-------------------|---------------------------|-------------|
 | 1      | 5          | 400              | 8.04              | 6.90                      | 0.86        |
 | 2      | 10         | 400              | 8.26              | 10.58                     | 1.28        |
