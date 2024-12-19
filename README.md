@@ -1,4 +1,4 @@
-# Wellcome
+# Welcome
 
 My name is Rubens Coutinho Toledo, I've spent my life pursing the research field and founnd myself in the need of changing carreer. When I'm not working, you will find me playing games, music, hiking or spending time with family.
 
