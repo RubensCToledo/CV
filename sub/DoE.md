@@ -49,7 +49,7 @@ These results have shown me that the only factor impacting my tests was the vibr
 
 In this case, the fluctuation observed at lower particle sizes is acceptable. However, it's important to remember that this analysis was based on 3 replicates, which may not fully capture the complete effect of each variable. Increasing the number of replicates could result in more than 100 tests, which is typically not feasible for various reasons. For this reason, more robust techniques should be applied when conducting parametric studies.
 
-A example code of this technique can be seen on here
+A example code of this technique can be seen on [here](https://rubensctoledo.github.io/COdes_examples/Bib_git.ipynb)
 ## Composite Central Design
 
 In this project I was trying to optimize a variable on a process. When dealing with a somewhat know process, it is possible to apply a second degree model to describe the desirable output. In this example I was investigating the effect of temperature and residence time of some samples during a reaction. I wish to understand what are the optimal configuration to conduct this test if I want to have the maximum yield output which in this case is reaction conversion. The table bellow shows the configuration used in this project:
