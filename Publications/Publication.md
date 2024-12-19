@@ -8,9 +8,9 @@ Toledo, R.C., Arce, G.L., Carvalho Jr, J.A. and Ávila, I., 2023. Experimental d
 
 ## Conference papers
 
-Toledo, R. C. e Tibiriçá, C. B.. Plain fin-and-tube heat exchangers data-base analysis by multiple prediction methods. 2019, Anais.. São Carlos, SP: EESC-USP, 2019. Disponível em: [here](https://RubensCToledo.github.io/webblog/Publications/rubens_encit2020_vfinal_4.pdf);
+Toledo, R. C. e Tibiriçá, C. B.. Plain fin-and-tube heat exchangers data-base analysis by multiple prediction methods. 2019, Anais.. São Carlos, SP: EESC-USP, 2019. Disponível em: [here](https://RubensCToledo.github.io/Publications/rubens_encit2020_vfinal_4.pdf);
 
-Toledo R.C., Colmanetti A.R., Tibiriçá C.B.. ENC-2020-0803 EXPERIMENTAL DATA COMPARISON AND PREDICTION OF A PLAIN FIN-AND-TUBE HEAT EXCHANGER.[here](https://RubensCToledo.github.io/webblog/Publications/cobem2019_en_vfinal.pdf)
+Toledo R.C., Colmanetti A.R., Tibiriçá C.B.. ENC-2020-0803 EXPERIMENTAL DATA COMPARISON AND PREDICTION OF A PLAIN FIN-AND-TUBE HEAT EXCHANGER.[here](https://RubensCToledo.github.io/Publications/cobem2019_en_vfinal.pdf)
 
 
 
